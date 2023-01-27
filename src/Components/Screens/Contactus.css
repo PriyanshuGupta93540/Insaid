@@ -1,0 +1,204 @@
+.Contactus>img:nth-child(1){
+    width: 100%;
+    height: 550px;
+    position: relative;
+       
+}
+.Contactus_phone>h1{
+    font-size: 50px;
+}
+.Contactus_phone>h2{
+    font-size: 18px;
+}
+.Contactus_phone>h3{
+    font-size: 13px;
+    color: #33383d;
+}
+
+.Contactus_address>h1{
+    margin-top: 30px;
+}
+
+.Contactus_address>h1{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.Contactus_address>h2{
+    font-size: 13px;
+    color: #33383d;
+}
+.Store_timings>h1{
+   font-size: 18px;
+   margin-top: 30px;
+}
+.Store_timings>h2{
+    font-size: 13px;
+    color: #33383d; 
+ }
+ 
+.socialmedia{
+    height: 100px;
+}
+
+.Contactus>img:nth-child(2){
+    width: 20%;
+    height: 350px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -1150px;
+   
+}
+.Contactus>h1{
+    margin-top: -230px;
+    margin-left: 200px;
+    font-size: 55px;
+    font-weight: lighter;
+    position: absolute;
+}
+.Contactus_Inner{
+    background-color: rgb(207, 205, 205);
+    width: 400px;
+    margin-left: 120px;
+    margin-top: 80px;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    border-radius: 50px;
+    height: 450px;
+}
+.Contactus_proposal{
+    margin-left: 600px;
+    margin-top: -440px;
+    width: 800px;
+    background-color: pink;
+}
+.Contactus_proposal_heading>h1{
+    font-size: 50px;
+    
+}
+.Contactus_proposal_heading>h4{
+    color: #55595d;
+}
+.Contactus_proposal_input>input{
+    height: 50px;
+    width: 250px;
+}
+.Contactus_proposal_input>:nth-child(2){
+    margin-top: 50px;
+}
+.Contactus_proposal_input>select>option{
+    width: 200px;
+}
+
+.complaint_container{
+    margin-left: 590px;
+    width: 500px;
+    margin-top: -460px;
+}
+.complaint_start2{
+   padding-top: 20px;
+   
+}
+.complaint_input>input{
+    width: 280px;
+    height: 50px;
+}
+.complaint>h1{
+    font-size: 48px;
+}
+.complaint_heading>h4{
+    margin-top: -16px;
+    margin-bottom: 10px;
+    color: #33383d;
+}
+.Button>button{
+    margin-top: 20px;
+    background-color: rgb(207, 205, 205);
+    border-style: none;
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+}
+.blank>h1{
+    font-size: smaller;
+    margin-left: 450px;
+    margin-top: -20px;
+}
+
+@media (max-width:1350px){
+    .Contactus>h1{
+        position: absolute;
+        z-index: 3;
+        position: fixed;
+    }
+    .Contactus>img:nth-child(1){
+        position: relative;
+        z-index: 1;
+    }
+    .Contactus>img:nth-child(2){
+       position: absolute;
+        
+        z-index: 2;
+    }
+    .Contactus_Inner{
+        width: 300px;
+        
+    }
+    .complaint_container{
+        width: 400px;
+        margin-left: 440px;
+    }
+}
+@media (max-width:1320px){
+    .Contactus>h1{
+        margin-left: 130px;
+    }
+}
+@media (max-width:780px){
+    .Contactus>h1{
+        display: none;
+        
+    }
+    .complaint{
+        margin-top: 200px;
+        
+    }
+    .complaint>h1{
+       margin-left: -150px;
+    }
+    .complaint_heading{
+        margin-left: -150px;
+    }
+    .complaint_start1{
+        margin-left: -150px;
+        
+    }
+}
+@media(max-width:1058px){
+    .Contactus_Inner{
+        width: 260px;
+        padding-left: 30px;
+        
+    }
+    .Contactus_phone>h1{
+        font-size: 35px;
+    }
+    
+    .complaint>h1{
+        font-size: 35px;
+    }
+    .complaint_container{
+        width: 400px;
+        margin-top: -400px;
+        margin-left: 350px;
+    }
+}
+@media(max-width:760px){
+    .Contactus_Inner{
+        margin-left: 20px;
+    }
+    .complaint_container{
+        margin-top: -580px;
+        margin-left: 450px;
+    }
+}
